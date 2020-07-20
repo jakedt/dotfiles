@@ -5,7 +5,7 @@ setopt EXTENDED_GLOB
 
 # Default values for configurable variables
 export INSTALL_DIR=${INSTALL_DIR:-$HOME}
-export DOTFILES_DIR=${DOTFILES_DIR:-$HOME/.dotfiles}
+export DOTFILES_DIR=${DOTFILES_DIR:-$HOME/dotfiles}
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$INSTALL_DIR/.config}
 
 # Prompt the user

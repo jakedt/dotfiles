@@ -1,5 +1,5 @@
 FROM alpine:edge
-LABEL maintainer "Jimmy Zelinskie <jimmyzelinskie+git@gmail.com>"
+LABEL maintainer "Jake Moshenko <jacob.moshenko@gmail.com>"
 
 RUN \
 	echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
@@ -49,8 +49,8 @@ RUN \
 
 RUN \
 	echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && \
-	adduser -D -G wheel jimmy
-USER jimmy
+	adduser -D -G wheel jake
+USER jake
 
 RUN \
 	# Rewrite clones to use https, instead of ssh \

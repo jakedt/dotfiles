@@ -119,14 +119,14 @@ nmap <silent> <leader>p :set invpaste<CR>:set paste?<CR>
 nmap <silent> <leader>w :set invwrap<CR>:set wrap?<CR>
 
 " productive arrow keys
-nmap <Up> [e
-nmap <Down> ]e
-vmap <Up> [egv
-vmap <Down> ]egv
-nmap <Left> <<
-nmap <Right> >>
-vmap <Left> <gv
-vmap <Right> >gv
+" nmap <Up> [e
+" nmap <Down> ]e
+" vmap <Up> [egv
+" vmap <Down> ]egv
+" nmap <Left> <<
+" nmap <Right> >>
+" vmap <Left> <gv
+" vmap <Right> >gv
 
 " strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
